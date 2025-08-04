@@ -20,7 +20,7 @@ function Stars() {
     },
     particles: {
       number: {
-        value: 250,
+        value: 450,
         density: {
           enable: true,
           value_area: 800,
@@ -90,7 +90,7 @@ function Stars() {
       init={particlesInit}
       loaded={particlesLoaded}
       options={options}
-      className="absolute inset-0 z-0"
+      className="absolute inset-0 z-10"
     />
   );
 }

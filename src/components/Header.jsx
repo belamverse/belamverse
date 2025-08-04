@@ -3,13 +3,13 @@ import { Github } from 'lucide-react'
 
 function Header() {
   return (
-    <header className="flex justify-between items-center p-4">
+    <header className="z-20 relative flex justify-between items-center p-4">
       <div className="flex items-center gap-3">
 
         <img 
           src="/images/logo.png" 
           alt="BelamVerse Logo" 
-          className="w-10 h-10 rounded-full"
+          className="w-14 h-14 rounded-full"
         />
         <h1 className="text-xl font-bold text-gray-50">BelamVerse</h1>
       </div>
